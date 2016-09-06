@@ -9,18 +9,17 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimun-scale=1" />		
 	<title>GESTIÓN DE ACTIVO FIJO E INVENTARIO</title>
 </head>
-<body onload="javaSlideShow()">
+<body>
 <div id="contenedor">
 		<header id="titulo">
 			<img src="<?php echo URL::asset('img/Odontologia.png') ?>">
 			<h1>FACULTAD DE ODONTOLOGIA</h1>
 			<h2>UNIVERSIDAD DE EL SALVADOR</h2>
-		</header>
-		<div id="tema">
 			<h2>GESTIÓN DE ACTIVO FIJO E INVENTARIO</h2>
-		</div>
+		</header>
+
 		<section id="datos">
-			<h3>INICIAR SESIÓN</h3>
+			<img src="<?php echo URL::asset('img/UES.png') ?>">
 	        {{-- Preguntamos si hay algún mensaje de error y si hay lo mostramos  --}}
 	        @if(Session::has('mensaje'))
 	            <p id="mensaje">{{ Session::get('mensaje') }}</p>
@@ -34,9 +33,6 @@
             <p class="recordar">{!! Form::label('Recordar', 'Recordar contraseña') !!} {!! Form::checkbox('remember', true)!!}</p>
 			{!! Form::submit('Ingresar', ['class' => 'btnIngresar']) !!}
 			{!! Form::close() !!}
-		</section>
-		<section id="imagenes">
-			<img src="<?php echo URL::asset('img/UES.png')?>" name='SlideShow'>
 		</section>
 	</div>
 
