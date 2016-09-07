@@ -38,7 +38,7 @@ class HomeController extends Controller {
 
 		if(Auth::user()->tipo_usuario==1)
 		{
-			return view('ingreso');
+			return view('ingreso.ingreso');
 		}
 		else
 			return view('welcome');
