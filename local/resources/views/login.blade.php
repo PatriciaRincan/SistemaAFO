@@ -10,7 +10,7 @@
 	<title>GESTIÓN DE ACTIVO FIJO E INVENTARIO</title>
 </head>
 <body>
-<div id="contenedor">
+	<div id="contenedor">
 		<header id="titulo">
 			<img src="<?php echo URL::asset('img/Odontologia.png') ?>">
 			<h1>FACULTAD DE ODONTOLOGIA</h1>
@@ -20,17 +20,17 @@
 
 		<section id="datos">
 			<img src="<?php echo URL::asset('img/UES.png') ?>">
-	        {{-- Preguntamos si hay algún mensaje de error y si hay lo mostramos  --}}
-	        @if(Session::has('mensaje'))
-	            <p id="mensaje">{{ Session::get('mensaje') }}</p>
-	        @endif
-	        {!! Form::open(array('url' => 'login', 'method'=>'post')) !!}
-	       
-	        {!! Form::label('usuario', 'USUARIO:', ['class' => 'etiquetas']) !!}
-	        {!! Form::text('username', Input::old('username'), ['class' => 'textfield']) !!}
-	  		{!! Form::label('contraseña', 'CONTRASEÑA:', ['class' => 'etiquetas']) !!}
-	        {!! Form::password('password' , ['class' => 'textfield']) !!}
-            <p class="recordar">{!! Form::label('Recordar', 'Recordar contraseña') !!} {!! Form::checkbox('remember', true)!!}</p>
+			{{-- Preguntamos si hay algún mensaje de error y si hay lo mostramos  --}}
+			@if(Session::has('mensaje'))
+			<p id="mensaje">{{ Session::get('mensaje') }}</p>
+			@endif
+			{!! Form::open(array('url' => 'login', 'method'=>'post')) !!}
+			
+			{!! Form::label('usuario', 'USUARIO:', ['class' => 'etiquetas']) !!}
+			{!! Form::text('username', Input::old('username'), ['class' => 'textfield']) !!}
+			{!! Form::label('contraseña', 'CONTRASEÑA:', ['class' => 'etiquetas']) !!}
+			{!! Form::password('password' , ['class' => 'textfield']) !!}
+			<p class="recordar">{!! Form::label('Recordar', 'Recordar contraseña') !!} {!! Form::checkbox('remember', true)!!}</p>
 			{!! Form::submit('Ingresar', ['class' => 'btnIngresar']) !!}
 			{!! Form::close() !!}
 		</section>

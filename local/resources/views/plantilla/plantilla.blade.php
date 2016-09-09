@@ -14,7 +14,7 @@
 <body>
 	
 
-<div id="contenedor">
+	<div id="contenedor">
 		<?php echo View::make('menu'); ?>
 		<h1 id="tema">REGISTRO DE BIENES</h1>
 		
@@ -26,8 +26,8 @@
 	</div>
 	<footer id="cierre">
 		@if (Auth::check())
-			<p>{{{Auth::user()->nombre }}} {{{Auth::user()->apellido }}}</p>
-			<a href="{{url('logout')}}">Cerrar Sesión</a>
+		<p>{{{Auth::user()->nombre }}} {{{Auth::user()->apellido }}}</p>
+		<a href="{{url('logout')}}">Cerrar Sesión</a>
 		@endif
 	</footer>
 </body>

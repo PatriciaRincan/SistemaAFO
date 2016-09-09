@@ -15,6 +15,7 @@ body
 
 #contenedor
 {
+	text-align: center;
 	width:100%;
 	max-width: 1340px;
 	margin:0 auto;
@@ -85,11 +86,6 @@ body
 	height: 200px;
 }
 
-#datos h3
-{
-	text-align: center;
-}
-
 .etiquetas
 {
 	float: left;
@@ -120,11 +116,6 @@ body
 	margin-top: 10%;
 }
 
-.error{
-    background: red;
-    color: #fff;
-    text-align: center;
-}
 
 .btnIngresar
 {
@@ -148,17 +139,6 @@ body
 
 
 
-#imagenes
-{
-	width:25%;
-	padding: 20px;
-	box-sizing: border-box;
-	float: left;
-	margin-left: 5%;
-	margin-top: 1%;
-}
-
-
 @media screen and (max-width: 700px)
 {
 	body
@@ -170,16 +150,10 @@ body
 		width: 80%;
 		margin-left:10%;
 	}
-	#imagenes
-	{
-		width: 50%;
-		margin-left:25%;
-		margin-top:5%;
-	}
 	.recordar
 	{
 		float: left;
-		margin-left: 30%;
+		margin-left: 23%;
 
 	}
 	#mensaje
@@ -203,18 +177,31 @@ body
 		height: auto;
 
 	}
+
 	.etiquetas
 	{
 		font-size: 70%;
 
 	}
-	#imagenes img
+
+	.recordar
 	{
-		display:none;
+		width: 100%;
+		float: left;
+		margin-left: 5%;
 	}
+
 	#btnIngresar
 	{
 		width: 75%;
 		margin-left: 12%;
 	}
+	#mensaje
+	{
+		float: left;
+		width: 100%;
+		margin-left: 3%;
+
+	}
+
 }
