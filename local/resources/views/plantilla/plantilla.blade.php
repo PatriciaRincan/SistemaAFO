@@ -25,10 +25,8 @@
 
 	</div>
 	<footer id="cierre">
-		@if (Auth::check())
-		<p>{{{Auth::user()->nombre }}} {{{Auth::user()->apellido }}}</p>
-		<a href="{{url('logout')}}">Cerrar Sesión</a>
-		@endif
+		</br>
+		<p>Copyright © 2016, Universidad de El Salvador</p>
 	</footer>
 </body>
 </html>

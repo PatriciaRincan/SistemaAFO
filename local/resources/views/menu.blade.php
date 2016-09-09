@@ -10,9 +10,11 @@
 			<p>{{{Auth::user()->nombre }}} {{{Auth::user()->apellido }}}&nbsp&nbsp <a href="{{url('logout')}}">(Cerrar Sesión)</a></p>
 			@endif
 		</div>
-		<img src="img/Odontologia.png">
-		<h1>FACULTAD DE ODONTOLOGIA</h1>
-		<h2>UNIVERSIDAD DE EL SALVADOR</h2>
+		<div id="subtitulo">
+			<img src="img/Odontologia.png">
+			<h1>FACULTAD DE ODONTOLOGIA</h1>
+			<h2>UNIVERSIDAD DE EL SALVADOR</h2>
+		</div>
 		<section class="menu">
 			<div>
 				<nav>

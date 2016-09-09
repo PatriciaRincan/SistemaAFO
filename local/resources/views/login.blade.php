@@ -13,11 +13,12 @@
 	<div id="contenedor">
 		<header id="titulo">
 			<img src="<?php echo URL::asset('img/Odontologia.png') ?>">
-			<h1>FACULTAD DE ODONTOLOGIA</h1>
-			<h2>UNIVERSIDAD DE EL SALVADOR</h2>
-			<h2>GESTIÓN DE ACTIVO FIJO E INVENTARIO</h2>
+			<div id="subtitulo">
+				<h1>FACULTAD DE ODONTOLOGIA</h1>
+				<h2>UNIVERSIDAD DE EL SALVADOR</h2>
+				<h2>GESTIÓN DE ACTIVO FIJO E INVENTARIO</h2>
+			</div>
 		</header>
-
 		<section id="datos">
 			<img src="<?php echo URL::asset('img/UES.png') ?>">
 			{{-- Preguntamos si hay algún mensaje de error y si hay lo mostramos  --}}
