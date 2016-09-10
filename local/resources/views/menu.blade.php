@@ -22,7 +22,7 @@
 		                <li><a href="#">Préstamo</a></li>
 		                <li><a href="#">Descargo</a></li>
 		                <li><a href="#">Formularios</a></li>
-		                <li><a href="#">Consultar</a></li>
+		                <li><a href=" {{ route('consulta.consultas.index') }} ">Consultar</a></li>
 		                <li><a href="#">Historial</a></li>
 		                <li><a href="#">Usuarios</a></li>	   
 		            </ul>

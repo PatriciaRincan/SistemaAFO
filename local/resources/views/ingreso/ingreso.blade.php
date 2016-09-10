@@ -1,6 +1,7 @@
 @extends('plantilla.plantilla')
 
 @section('content')
+<h1 id="tema">REGISTRO DE BIENES</h1>
 <section id="camposGenerales">
 			<div id="datosGenerales">
 				<h2>DATOS GENERALES</h2>

@@ -22,3 +22,8 @@ Route::get('salu', function(){
     return Redirect::to('/login')->with('mensaje', 'Tu sesión ha sido cerrada.');
 });
 
+/* aris*/
+Route::group(['prefix'=>'consulta'],function(){
+Route::resource('consultas','ConsultaController');
+
+	});

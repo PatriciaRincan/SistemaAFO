@@ -191,6 +191,22 @@ body
 	margin-top:-1%;
 
 }
+#consultas
+{
+	width: auto;
+
+	background: white;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+	margin-left:10%;
+	margin-top: 2%;
+	margin:5 auto;
+	border:8px solid #808080;
+	border-radius: 3%;
+	border-color: #B40404;
+	font-family: tahoma;
+}
 
 
 @media screen and (max-width: 1050px)
@@ -245,6 +261,15 @@ body
 		width:45%;
 	}
 
+	#consultas
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 5%;
+
+	}
+
+
 }
 
 @media screen and (max-width: 600px)
@@ -262,6 +287,7 @@ body
 		width: 100%;
 		margin-left: 0%;
 
+
 	}
 	#camposGenerales1
 	{
@@ -274,6 +300,8 @@ body
 		margin-top: -10%;
 		margin:5 auto;
 	}
+    
+
 	.etiquetas
 	{
 		text-align: right;
@@ -308,4 +336,15 @@ body
 		width:100%;
 		border-left-style:none;
 	}
+
+#consultas
+	{
+		width: 100%;
+		margin-left: 0%;
+
+
+	}
+
 }
+
+
