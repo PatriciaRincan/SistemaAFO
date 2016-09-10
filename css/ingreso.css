@@ -181,9 +181,9 @@ body
 	margin-top: 5%;
 	text-align: center;
 	color: white;
-
 }
 
+<<<<<<< HEAD
 #cierre a
 {
 	float: center;
@@ -207,6 +207,8 @@ body
 	border-color: #B40404;
 	font-family: tahoma;
 }
+=======
+>>>>>>> 58f2df95b150178ce3c8263302255d13bfb037b9
 
 
 @media screen and (max-width: 1050px)
@@ -215,10 +217,7 @@ body
 	{
 		font-size: 70%;
 	}
-	iframe
-	{
-		height: 200px;
-	}
+
 	#camposGenerales
 	{
 		width: 100%;
@@ -272,16 +271,13 @@ body
 
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 700px)
 {
 	body
 	{
 		font-size: 60%;
 	}
-	iframe
-	{
-		height: 300px;
-	}
+
 	#camposGenerales
 	{
 		width: 100%;
@@ -347,4 +343,15 @@ body
 
 }
 
+<<<<<<< HEAD
 
+=======
+@media screen and (max-width: 400px)
+{
+	.etiquetas
+	{
+		font-size: 70%;
+
+	}
+}
+>>>>>>> 58f2df95b150178ce3c8263302255d13bfb037b9

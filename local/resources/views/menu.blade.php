@@ -7,14 +7,17 @@
 	<header id="titulo">
 		<div id="auth">
 			@if (Auth::check())
-				<p>{{{Auth::user()->nombre }}} {{{Auth::user()->apellido }}}&nbsp&nbsp <a href="{{url('logout')}}">(Cerrar Sesión)</a></p>
+			<p>{{{Auth::user()->nombre }}} {{{Auth::user()->apellido }}}&nbsp&nbsp <a href="{{url('logout')}}">(Cerrar Sesión)</a></p>
 			@endif
 		</div>
-		<img src="img/Odontologia.png">
-		<h1>FACULTAD DE ODONTOLOGIA</h1>
-		<h2>UNIVERSIDAD DE EL SALVADOR</h2>
+		<div id="subtitulo">
+			<img src="img/Odontologia.png">
+			<h1>FACULTAD DE ODONTOLOGIA</h1>
+			<h2>UNIVERSIDAD DE EL SALVADOR</h2>
+		</div>
 		<section class="menu">
 			<div>
+<<<<<<< HEAD
 		        <nav>
 		            <ul>
 		                <li><a href="#">Registro</a></li>
@@ -29,6 +32,22 @@
 		   		</nav>
 		   	</div>
     	</section>
+=======
+				<nav>
+					<ul>
+						<li><a href="#">Registro</a></li>
+						<li><a href="#">Traslado</a></li>
+						<li><a href="#">Préstamo</a></li>
+						<li><a href="#">Descargo</a></li>
+						<li><a href="#">Formularios</a></li>
+						<li><a href="#">Consultar</a></li>
+						<li><a href="#">Historial</a></li>
+						<li><a href="#">Usuarios</a></li>	   
+					</ul>
+				</nav>
+			</div>
+		</section>
+>>>>>>> 58f2df95b150178ce3c8263302255d13bfb037b9
 	</header>
 </body>
 </html>
