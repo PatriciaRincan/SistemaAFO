@@ -27,3 +27,9 @@ Route::get('consulta', 'ConsultaController@index');
 Route::get('ingreso', function(){
 	return view('ingreso.ingreso');
 });
+
+//REPORTES
+
+Route::get('listado_unidades','PdfController@index');
+Route::get('crear_reporte_por_unidad/{tipo}','PdfController@crear_reporte_por_unidad');
+

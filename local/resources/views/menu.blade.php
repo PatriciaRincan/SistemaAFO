@@ -26,7 +26,9 @@
 		                <li><a href="#">Formularios</a></li>
 		                <li><a href="{{url('consulta')}}">Consultar</a></li>
 		                <li><a href="#">Historial</a></li>
-		                <li><a href="#">Usuarios</a></li>	   
+		                <li><a href="#">Usuarios</a></li>	
+		                <li class="active"><a href="{{url('listado_unidades')}}" onclick="cargarlistado(3,1);"><i class="fa fa-circle-o"></i>Reportes</a></li>	
+		                
 		            </ul>
 		   		</nav>
 		   	</div>

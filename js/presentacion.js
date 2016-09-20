@@ -26,3 +26,6 @@
 		if (j > (p - 1)) j = 0;
 		t = setTimeout('javaSlideShow()', slideShowSpeed);
 	}
+	function cargarlistado(listado){
+		if(listado==3){var url="reportes";}
+	}

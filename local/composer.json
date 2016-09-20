@@ -13,7 +13,8 @@
 		"phpunit/phpunit": "~4.0",
 		"phpspec/phpspec": "~2.1",
 		"way/generators": "dev-feature/laravel-five-stable",
-		"xethron/migrations-generator": "dev-l5"
+		"xethron/migrations-generator": "dev-l5",
+		"barryvdh/laravel-dompdf": "0.6.*"
 	},
 	"autoload": {
 		"classmap": [
